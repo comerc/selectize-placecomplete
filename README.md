@@ -1,10 +1,10 @@
 Selectize placecomplete
 =======================
 
-plugin for [selectize](https://github.com/brianreavis/selectize.js)
+plugin for [selectize](https://github.com/brianreavis/selectize.js), [see more](http://autoform-placecomplete.meteor.com)
 
-[see more](http://autoform-placecomplete.meteor.com)
-
+Usage
+-----
 ```coffee
 $('#input-place').selectize
   mode: "single"
