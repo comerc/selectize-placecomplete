@@ -1,4 +1,4 @@
-Selectize placecomplete
+selectize placecomplete
 =======================
 
 plugin for [selectize](https://github.com/brianreavis/selectize.js), [see more](http://autoform-placecomplete.meteor.com)
