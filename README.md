@@ -6,7 +6,7 @@ plugin for [selectize](https://github.com/brianreavis/selectize.js), [see more](
 Usage
 -----
 ```coffee
-$('#input-place').selectize
+$("input[name='place']").selectize
   mode: "single"
   openOnFocus: false
   delimiter: null
