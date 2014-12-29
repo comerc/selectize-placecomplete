@@ -11,7 +11,7 @@ $("input[name='place']").selectize
   openOnFocus: false
   delimiter: null
   onInitialize: ->
-    value = this.$input[0].value
+    value = this.getValue()
     place_id = $("input[name='place_id']").val()
     this.updateOption value,
       value: value
