@@ -4,8 +4,7 @@
  * fork me: https://github.com/comerc/selectize-placecomplete
  */
 
-// first window.initPlacecomplete in https://github.com/comerc/placecomplete
-window.initPlacecomplete2 = function() {
+window.initPlacecomplete = function() {
   GooglePlacesAPI.completeInit();
 };
 
