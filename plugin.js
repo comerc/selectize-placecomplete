@@ -124,7 +124,6 @@ var pluginName = "placecomplete";
 
 Selectize.define(pluginName, function(options) {
   var self = this;
-  var KEY_RETURN = 13;
 
   options = $.extend({
     placeholder: "City, State, Country",
