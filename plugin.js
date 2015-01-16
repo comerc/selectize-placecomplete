@@ -4,7 +4,8 @@
  * fork me: https://github.com/comerc/selectize-placecomplete
  */
 
-window.initPlacecomplete = function() {
+// first window.initPlacecomplete in https://github.com/comerc/placecomplete
+window.initPlacecomplete2 = function() {
   GooglePlacesAPI.completeInit();
 };
 
@@ -123,6 +124,7 @@ var pluginName = "placecomplete";
 
 Selectize.define(pluginName, function(options) {
   var self = this;
+  var KEY_RETURN = 13;
 
   options = $.extend({
     placeholder: "City, State, Country",
@@ -194,8 +196,6 @@ Selectize.define(pluginName, function(options) {
       if (self.settings.mode === "single") {
         self.close();
       }
-      e.preventDefault();
-      e.stopPropagation();
       // ok, google
       GooglePlacesAPI.getDetails(data)
         .done(function(placeResult) {
