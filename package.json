@@ -1,0 +1,26 @@
+{
+  "name": "selectize-placecomplete",
+  "version": "1.0.0",
+  "description": "Wrapper of Selectize.js plugin for location autocomplete powered by the Google Maps API",
+  "author": "comerc, Stephanie H. Chang",
+  "main": "plugin.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:comerc/selectize-placecomplete.git"
+  },
+  "dependencies": {
+    "selectize": "~0.11.2"
+  },
+  "bugs": {
+    "url": "https://github.com/comerc/selectize-placecomplete/issues"
+  },
+  "homepage": "https://github.com/comerc/selectize-placecomplete",
+  "keywords": [
+    "google",
+    "maps",
+    "places",
+    "selectize",
+    "autocomplete"
+  ],
+  "license": "MIT"
+}
