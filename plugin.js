@@ -51,7 +51,7 @@ var GooglePlacesAPI = {
     } else {
       $.ajax({
         // TODO: https://developers.google.com/maps/documentation/javascript/basics#Localization
-        url: "https://maps.googleapis.com/maps/api/js?libraries=places&sensor=false&callback=initPlacecomplete2",
+        url: "https://maps.googleapis.com/maps/api/js?libraries=places&sensor=false&callback=initPlacecomplete",
         dataType: "script",
         cache: true
       });
